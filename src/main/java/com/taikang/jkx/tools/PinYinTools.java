@@ -40,15 +40,17 @@ public class PinYinTools {
 					sb.append(",");
 				}
 				// 1.判断是不是中文
-				if (i > 0 && isCn) {
-					sb.append(fill);
-				}
+//				if (i > 0 && isCn) {
+//					sb.append(fill);
+//				}
 				if (c >= '\u4e00' && c <= '\u9fa5') {
 					isCn = true;
-					// 如果是中文,取首字母
 					String string = PinyinHelper.toHanyuPinyinStringArray(c, format)[0];
 					if (!StringUtils.isEmpty(string)) {
-						sb.append(string.charAt(0));
+						// 如果是中文,取首字母
+//						sb.append(string.charAt(0));
+						//取全拼
+						sb.append(string);
 					}
 					// sb.append(PinyinHelper.toHanyuPinyinStringArray(c,
 					// format)[0]);

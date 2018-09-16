@@ -1,0 +1,1 @@
+INSERT INTO `hioms_user` VALUES ('74dbeb203d4d4318acf978ca315bb98a', 'zhangqh27', '37c043aafda2c91e2202ecadd032c21687b645a077e4d704', '张庆海', '18507128469', '', null, '100000001', '湖北分公司健康险运营部', 'admin', '2018-08-04 22:40:52', '1');
